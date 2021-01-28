@@ -1,0 +1,188 @@
+body, html{
+
+    background-color: #c57ba5;
+}
+body{
+    padding-top: 2em;
+}
+
+#container{
+    background-color:#699eb9;
+    width: 90vw;
+    min-height: 90vmin;
+    margin: auto;
+    position: relative;
+    box-shadow: 5px 5px 8px black;
+    
+}
+
+header{
+    background-image: url(images/bannerWashington.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 3em;
+    font-size: 3em;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    /*to center veritcally had to cheat and use grid*/
+    display: grid;
+    align-items: center;
+    padding-left: 1em;
+    /*double shadow for double thicknessss*/
+    text-shadow: 2px 2px 2px #131212, 4px 4px 2px #131212;
+}
+
+/*making our nav look glorious, and overriding some ul and li functionality*/
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li{
+    display: inline;
+    float: left;
+}
+
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: #111;
+}
+
+/*adding special stuff to our home link*/
+#homeNav {
+    background-color: #4b760e;
+}
+
+#homeNav:hover{
+    background-color:#111;
+}
+main{
+    padding-bottom: 2.5rem;
+}
+
+#mainTitle{
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 5px;
+}
+blockquote{
+    font-style: italic;
+    margin-top: 0px;
+}
+
+#content{
+    padding: 0px 10px;
+    overflow: auto;
+    position: relative;
+}
+
+figure{
+    text-align: center;
+    
+}
+
+figcaption{
+    text-align: center;
+}
+#homeImg{
+    width: 570px;
+    box-shadow: 5px 5px 8px black;
+}
+
+#homeContentText{
+    position: absolute;
+    top: 50%;
+    /* margin: auto auto; */
+    transform: translateY(-50%);
+    font-size: 1.3em;
+
+}
+
+footer{
+    background-image: linear-gradient(to top, #cf96b4, #689eb9);
+    text-align: center;
+    font-size: .8em;
+    font-style: italic;
+    padding: 0px 10px;
+    overflow: auto;
+
+}
+
+hr{
+    border-color: #4b760e;
+}
+
+#footerCopyright{
+    font-size: 1.1em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+.floatLeft{
+    float: left;
+    text-align: left;
+}
+.floatRight{
+    float: right;
+    text-align: right;
+}
+
+
+/*specific css for arts and culture*/
+
+#cultureImgBack{
+    background-image: url(images/nationalMall.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: auto;
+    position: absolute;
+    top: 50%;
+    /* margin: auto auto; */
+    transform: translateY(-50%);
+    font-size: 1.3em;
+    width: 500px;
+    border: 4px dashed orange;
+    border-radius: 10px;
+
+}
+
+#cultureContent{
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 100%;
+    padding: 10px;;
+}
+
+
+/*news and events*/
+#newsContent{
+    font-size: 1.3em;
+    overflow: auto;
+}
+#newsContent dt{
+    font-weight: bold;
+}
+
+/*recreation*/
+
+#recImg{
+    height: 400px;
+    width: 570px;
+    box-shadow: 5px 5px 8px black;
+}
+
